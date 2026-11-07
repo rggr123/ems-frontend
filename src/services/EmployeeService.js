@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const REST_API_BASE_URL = 'http://EMS-env.eba-dzq3228n.us-east-2.elasticbeanstalk.com/api/employees';
+const REST_API_BASE_URL = 'http://EMS-env.eba-dzq3228n.us-east-2.elasticbeanstalk.com';
 
 export const listEmployees = () => axios.get(REST_API_BASE_URL);
 
